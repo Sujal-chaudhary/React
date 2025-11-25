@@ -15,6 +15,8 @@ function App() {
       <h1>Hello, React!</h1>
       <br />
       <Card1 channel = "chai aur code" someObje = {myObj} btnText = "click me"/> {/*our component is rendered , we can pass props in it.*/}
+      <br />
+      <Card1 channel = "coding is fun" someObje = {myObj} btnText = "click me"/> 
     </div>
   )
     
